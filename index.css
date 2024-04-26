@@ -8,8 +8,9 @@ title> {
     border: 20px double cadetblue;
     position: absolute;
     display: flex;
-    margin: 50px;
+    margin: 100px;
     background-color: cadetblue;
+    float: right;
 }
 
 body {

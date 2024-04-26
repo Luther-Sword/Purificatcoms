@@ -2,7 +2,9 @@
 
 <title>Purificat - Beta chatroom 1.0</title>
 
-<head><link rel="stylesheet" href="chat.css"></head>
+<head><link rel="stylesheet" href="chat.css">
+  <meta charset="utf-8">
+</head>
 
 <script> var username = prompt("Enter Username");
     while (username == null || username.trim() == "") {
@@ -12,4 +14,30 @@
     while (username.length < 3 || username.length > 20) {
       username = prompt("Enter Username");
     }</script>
+
+    <body>
+      <div class="app">
+        <div class="screen join-screen active">
+        </div>
+        <div class="screen chat-screen">
+          <div class="header">
+          <div class="logo">Purificatroom Beta 1.0</div>
+        </div>
+        <div class="messages">
+          <div class="message my-message">
+          </div>
+          <div class="name">You</div>
+          <div class="text">Hi</div>
+          <div class="update">
+            Abc has joined the conversation
+            </div>
+          <div class="message other-message">
+          </div>
+          <div class="name">Abc</div>
+          <div class="text">Hi</div>
+        </div>
+        </div>
+      </div>
+    </body>
+    
 </html>

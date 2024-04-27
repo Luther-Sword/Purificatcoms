@@ -19,15 +19,7 @@ body {
     border 1px solid #eee;
 }
 
-.app > .screen {
-    display: none;
-}
 
-.app > .screen.active {
-    display: block;
-    width:100%;
-    height:100%;
-}
 
 .chat-screen .header {
     background: #111;
